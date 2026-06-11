@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Studio — Создаём и продаём 3D модели</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <!-- ЛОГО: вставьте своё изображение: <img src="logo.svg" alt="3D Studio" height="36"> -->
+        <span class="logo__icon"><i class="ph ph-cube"></i></span>
+        <span class="logo__text">3D STUDIO</span>
+      </a>
+      <nav class="nav">
+        <a href="#" class="nav__link nav__link--active">Главная</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#portfolio" class="nav__link">Портфолио</a>
+        <a href="#process" class="nav__link">Этапы работы</a>
+      </nav>
+      <a href="#contacts" class="btn btn--primary">Связаться с нами</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="eyebrow">3D Моделирование</span>
+        <h1 class="hero__title">
+          Создаём и продаём<br />
+          <span class="accent">3D модели</span>
+        </h1>
+        <p class="hero__desc">
+          Профессиональная разработка 3D моделей<br />
+          любой сложности для ваших задач.<br />
+          Высокое качество и внимание к деталям.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">
+            Заказать модель <i class="ph ph-arrow-right"></i>
+          </a>
+          <a href="#portfolio" class="btn btn--outline">
+            Перейти в каталог <i class="ph ph-rows"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- ФОТО: вставить изображение 3D модели (турбина / двигатель) -->
+      <div class="hero__image">
+        <div class="img-placeholder img-placeholder--hero">
+          <!-- Сюда вставьте тег <img src="hero-model.png" alt="3D модель"> -->
+          <span>Изображение 3D модели</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero feature strip -->
+    <div class="container">
+      <div class="hero__features">
+        <div class="feature-item">
+          <span class="feature-item__icon"><i class="ph ph-cube-focus"></i></span>
+          <div>
+            <strong>Любая сложность</strong>
+            <p>От простых объектов до высокодетализированных моделей</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__icon"><i class="ph ph-shield-check"></i></span>
+          <div>
+            <strong>Высокое качество</strong>
+            <p>Оптимизированные модели с чистой топологией и правильными масштабами</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__icon"><i class="ph ph-clock"></i></span>
+          <div>
+            <strong>Сроки и поддержка</strong>
+            <p>Соблюдаем дедлайны и всегда на связи с клиентом</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <span class="eyebrow">Наши услуги</span>
+      <h2 class="section__title">Что мы предлагаем</h2>
+
+      <div class="services__grid">
+
+        <div class="service-card">
+          <!-- ФОТО: промышленная 3D модель (станок/мотор) -->
+          <div class="img-placeholder img-placeholder--service">
+            <!-- <img src="service-industrial.jpg" alt="Разработка 3D моделей"> -->
+            <span>Фото услуги</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Разработка 3D моделей</h3>
+            <p>Создаём 3D модели любой сложности по вашим чертежам, эскизам или референсам.</p>
+            <a href="#" class="link-arrow">Подробнее <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- ФОТО: мебель / кресло для производства -->
+          <div class="img-placeholder img-placeholder--service">
+            <!-- <img src="service-manufacturing.jpg" alt="Моделирование для производства"> -->
+            <span>Фото услуги</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Моделирование для производства</h3>
+            <p>Подготовим модели для ЧПУ, 3D печати, литья и других видов производства.</p>
+            <a href="#" class="link-arrow">Подробнее <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- ФОТО: автомобиль / рендер -->
+          <div class="img-placeholder img-placeholder--service">
+            <!-- <img src="service-render.jpg" alt="Визуализация и рендеринг"> -->
+            <span>Фото услуги</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Визуализация и рендеринг</h3>
+            <p>Фотореалистичные рендеры для презентаций, каталогов и маркетплейсов.</p>
+            <a href="#" class="link-arrow">Подробнее <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- ФОТО: ящик / готовые модели -->
+          <div class="img-placeholder img-placeholder--service">
+            <!-- <img src="service-catalog.jpg" alt="Продажа 3D моделей"> -->
+            <span>Фото услуги</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Продажа 3D моделей</h3>
+            <p>Готовые 3D модели в различных форматах для ваших проектов.</p>
+            <a href="#" class="link-arrow">Перейти в каталог <i class="ph ph-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="portfolio">
+    <div class="container">
+      <div class="section__header-row">
+        <div>
+          <span class="eyebrow">Портфолио</span>
+          <h2 class="section__title">Наши работы</h2>
+        </div>
+        <a href="#" class="btn btn--outline-sm">Смотреть все работы</a>
+      </div>
+
+      <div class="portfolio__grid">
+        <!-- ФОТО 1: шлем / персонаж -->
+        <div class="portfolio__item portfolio__item--large">
+          <div class="img-placeholder img-placeholder--portfolio">
+            <!-- <img src="portfolio-1.jpg" alt="Работа 1"> -->
+            <span>Работа 1</span>
+          </div>
+        </div>
+        <!-- ФОТО 2: двигатель -->
+        <div class="portfolio__item">
+          <div class="img-placeholder img-placeholder--portfolio">
+            <!-- <img src="portfolio-2.jpg" alt="Работа 2"> -->
+            <span>Работа 2</span>
+          </div>
+        </div>
+        <!-- ФОТО 3: здание / архитектура -->
+        <div class="portfolio__item portfolio__item--tall">
+          <div class="img-placeholder img-placeholder--portfolio">
+            <!-- <img src="portfolio-3.jpg" alt="Работа 3"> -->
+            <span>Работа 3</span>
+          </div>
+        </div>
+        <!-- ФОТО 4: наушники -->
+        <div class="portfolio__item">
+          <div class="img-placeholder img-placeholder--portfolio">
+            <!-- <img src="portfolio-4.jpg" alt="Работа 4"> -->
+            <span>Работа 4</span>
+          </div>
+        </div>
+        <!-- ФОТО 5: робот -->
+        <div class="portfolio__item">
+          <div class="img-placeholder img-placeholder--portfolio">
+            <!-- <img src="portfolio-5.jpg" alt="Работа 5"> -->
+            <span>Работа 5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW WE WORK ===== -->
+  <section class="section" id="process">
+    <div class="container">
+      <span class="eyebrow">Этапы работы</span>
+      <h2 class="section__title">Как мы работаем</h2>
+
+      <div class="process__steps">
+
+        <div class="step">
+          <div class="step__circle">
+            <i class="ph ph-note-pencil"></i>
+          </div>
+          <div class="step__connector"></div>
+          <span class="step__num">01</span>
+          <strong class="step__name">Заявка</strong>
+          <p class="step__desc">Вы оставляете заявку и описываете задачу.</p>
+        </div>
+
+        <div class="step">
+          <div class="step__circle">
+            <i class="ph ph-chat-circle-dots"></i>
+          </div>
+          <div class="step__connector"></div>
+          <span class="step__num">02</span>
+          <strong class="step__name">Обсуждение</strong>
+          <p class="step__desc">Мы уточняем детали и согласовываем условия.</p>
+        </div>
+
+        <div class="step">
+          <div class="step__circle">
+            <i class="ph ph-cube"></i>
+          </div>
+          <div class="step__connector"></div>
+          <span class="step__num">03</span>
+          <strong class="step__name">Разработка</strong>
+          <p class="step__desc">Создаём 3D модель с учётом всех требований.</p>
+        </div>
+
+        <div class="step">
+          <div class="step__circle">
+            <i class="ph ph-check-circle"></i>
+          </div>
+          <div class="step__connector"></div>
+          <span class="step__num">04</span>
+          <strong class="step__name">Согласование</strong>
+          <p class="step__desc">Вы проверяете модель и вносите правки при необходимости.</p>
+        </div>
+
+        <div class="step step--last">
+          <div class="step__circle">
+            <i class="ph ph-download-simple"></i>
+          </div>
+          <span class="step__num">05</span>
+          <strong class="step__name">Получение</strong>
+          <p class="step__desc">Вы получаете готовую модель в нужном формате.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <div class="logo">
+        <!-- ЛОГО: вставьте своё изображение: <img src="logo.svg" alt="3D Studio" height="36"> -->
+        <span class="logo__icon"><i class="ph ph-cube"></i></span>
+        <span class="logo__text">3D STUDIO</span>
+      </div>
+      <p class="footer__copy">© 2024 3D Studio. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
