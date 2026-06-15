@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оформление заказа — 3D Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="contact-page">
+
+        <header class="contact-header">
+            <a href="index.html" class="logo">
+                <span class="logo__icon"><i class="ph ph-cube"></i></span>
+                <span>3D МОДЕЛИРОВАНИЕ</span>
+            </a>
+        </header>
+
+        <div class="contact-body">
+            <div class="contact-card">
+                <h1 class="contact-card__title">Оформление заказа</h1>
+
+                <div class="contact-fields">
+                    <input type="text" class="contact-input" placeholder="Имя" />
+                    <input type="text" class="contact-input" placeholder="Фамилия" />
+                    <input type="email" class="contact-input" placeholder="E-mail" />
+                    <label class="contact-file-label">
+                        <i class="ph ph-paperclip"></i>
+                        <span id="fileText">Прикрепить файл</span>
+                        <input type="file" class="contact-file-input" id="fileInput"
+                            onchange="document.getElementById('fileText').textContent = this.files[0]?.name || 'Прикрепить файл'" />
+                    </label>
+                </div>
+
+                <button class="contact-submit">Сделать заказ</button>
+                <a href="index.html" class="contact-back">
+                    <i class="ph ph-arrow-left"></i> Вернуться на главную
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

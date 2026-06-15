@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3D Studio — Создаём и продаём 3D модели</title>
+  <title>3DBusStop — Создаём и продаём 3D модели</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
+
 <body>
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="logo">
-        <img src="logo.png" alt="3DBusStop">
-        <span class="logo__icon"><i class="ph ph-cube"></i></span>
-        <span class="logo__text">3D STUDIO</span>
+        <img src="assets/logo.png" alt="3DBusStop" class="logo__icon">
+        <span class="logo__text">3DBusStop</span>
       </a>
       <nav class="nav">
-        <a href="#" class="nav__link nav__link--active">Главная</a>
+        <a href="#" class="nav__link">Главная</a>
         <a href="#services" class="nav__link">Услуги</a>
         <a href="#portfolio" class="nav__link">Портфолио</a>
         <a href="#process" class="nav__link">Этапы работы</a>
       </nav>
-      <a href="#contacts" class="btn btn--primary">Связаться с нами</a>
+      <a href="contact.html" class="btn btn--primary">Связаться с нами</a>
     </div>
   </header>
 
-  <!-- ===== HERO ===== -->
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__content">
@@ -48,34 +49,31 @@
         </div>
       </div>
 
-      <!-- ФОТО: вставить изображение 3D модели (турбина / двигатель) -->
       <div class="hero__image">
         <div class="img-placeholder img-placeholder--hero">
-          <!-- Сюда вставьте тег <img src="hero-model.png" alt="3D модель"> -->
-          <span>Изображение 3D модели</span>
+          <img src="assets/something.png" alt="3DBusStop">
         </div>
       </div>
     </div>
 
-    <!-- Hero feature strip -->
     <div class="container">
       <div class="hero__features">
         <div class="feature-item">
-          <span class="feature-item__icon"><i class="ph ph-cube-focus"></i></span>
+          <img src="assets/cube-icon.png" alt="3DBusStop" class="feature-item__icon">
           <div>
             <strong>Любая сложность</strong>
             <p>От простых объектов до высокодетализированных моделей</p>
           </div>
         </div>
         <div class="feature-item">
-          <span class="feature-item__icon"><i class="ph ph-shield-check"></i></span>
+          <img src="assets/shield-icon.png" alt="3DBusStop" class="feature-item__icon">
           <div>
             <strong>Высокое качество</strong>
             <p>Оптимизированные модели с чистой топологией и правильными масштабами</p>
           </div>
         </div>
         <div class="feature-item">
-          <span class="feature-item__icon"><i class="ph ph-clock"></i></span>
+          <img src="assets/clock-icon.png" alt="3DBusStop" class="feature-item__icon">
           <div>
             <strong>Сроки и поддержка</strong>
             <p>Соблюдаем дедлайны и всегда на связи с клиентом</p>
@@ -85,7 +83,6 @@
     </div>
   </section>
 
-  <!-- ===== SERVICES ===== -->
   <section class="section" id="services">
     <div class="container">
       <span class="eyebrow">Наши услуги</span>
@@ -94,10 +91,9 @@
       <div class="services__grid">
 
         <div class="service-card">
-          <!-- ФОТО: промышленная 3D модель (станок/мотор) -->
+
           <div class="img-placeholder img-placeholder--service">
-            <!-- <img src="service-industrial.jpg" alt="Разработка 3D моделей"> -->
-            <span>Фото услуги</span>
+            <img src="assets/bear.png" alt="Разработка 3D моделей">
           </div>
           <div class="service-card__body">
             <h3>Разработка 3D моделей</h3>
@@ -107,10 +103,8 @@
         </div>
 
         <div class="service-card">
-          <!-- ФОТО: мебель / кресло для производства -->
           <div class="img-placeholder img-placeholder--service">
-            <!-- <img src="service-manufacturing.jpg" alt="Моделирование для производства"> -->
-            <span>Фото услуги</span>
+            <img src="assets/snakes.png" alt="Моделирование для производства">
           </div>
           <div class="service-card__body">
             <h3>Моделирование для производства</h3>
@@ -120,10 +114,8 @@
         </div>
 
         <div class="service-card">
-          <!-- ФОТО: автомобиль / рендер -->
           <div class="img-placeholder img-placeholder--service">
-            <!-- <img src="service-render.jpg" alt="Визуализация и рендеринг"> -->
-            <span>Фото услуги</span>
+            <img src="assets/barrels.png" alt="Моделирование для производства">
           </div>
           <div class="service-card__body">
             <h3>Визуализация и рендеринг</h3>
@@ -133,10 +125,8 @@
         </div>
 
         <div class="service-card">
-          <!-- ФОТО: ящик / готовые модели -->
           <div class="img-placeholder img-placeholder--service">
-            <!-- <img src="service-catalog.jpg" alt="Продажа 3D моделей"> -->
-            <span>Фото услуги</span>
+            <img src="assets/tree.png" alt="Моделирование для производства">
           </div>
           <div class="service-card__body">
             <h3>Продажа 3D моделей</h3>
@@ -160,47 +150,36 @@
       </div>
 
       <div class="portfolio__grid">
-        <!-- ФОТО 1: шлем / персонаж -->
         <div class="portfolio__item portfolio__item--large">
           <div class="img-placeholder img-placeholder--portfolio">
-            <!-- <img src="portfolio-1.jpg" alt="Работа 1"> -->
-            <span>Работа 1</span>
+            <img src="assets/elephant.png" alt="Моделирование для производства">
           </div>
         </div>
-        <!-- ФОТО 2: двигатель -->
         <div class="portfolio__item">
           <div class="img-placeholder img-placeholder--portfolio">
-            <!-- <img src="portfolio-2.jpg" alt="Работа 2"> -->
-            <span>Работа 2</span>
+            <img src="assets/bull.png" alt="Моделирование для производства">
           </div>
         </div>
-        <!-- ФОТО 3: здание / архитектура -->
         <div class="portfolio__item portfolio__item--tall">
           <div class="img-placeholder img-placeholder--portfolio">
-            <!-- <img src="portfolio-3.jpg" alt="Работа 3"> -->
-            <span>Работа 3</span>
+            <img src="assets/animal.png" alt="Моделирование для производства">
           </div>
         </div>
-        <!-- ФОТО 4: наушники -->
         <div class="portfolio__item">
           <div class="img-placeholder img-placeholder--portfolio">
-            <!-- <img src="portfolio-4.jpg" alt="Работа 4"> -->
-            <span>Работа 4</span>
+            <img src="assets/table.png" alt="Моделирование для производства">
           </div>
         </div>
-        <!-- ФОТО 5: робот -->
         <div class="portfolio__item">
           <div class="img-placeholder img-placeholder--portfolio">
-            <!-- <img src="portfolio-5.jpg" alt="Работа 5"> -->
-            <span>Работа 5</span>
+            <img src="assets/bulldoser.png" alt="Моделирование для производства">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== HOW WE WORK ===== -->
-  <section class="section" id="process">
+   <section class="section" id="process">
     <div class="container">
       <span class="eyebrow">Этапы работы</span>
       <h2 class="section__title">Как мы работаем</h2>
@@ -264,13 +243,13 @@
   <footer class="footer" id="contacts">
     <div class="container footer__inner">
       <div class="logo">
-        <!-- ЛОГО: вставьте своё изображение: <img src="logo.svg" alt="3D Studio" height="36"> -->
-        <span class="logo__icon"><i class="ph ph-cube"></i></span>
-        <span class="logo__text">3D STUDIO</span>
+        <img src="assets/logo.png" alt="3DBusStop" class="logo__icon">
+        <span class="logo__text">3DBusStop</span>
       </div>
-      <p class="footer__copy">© 2024 3D Studio. Все права защищены.</p>
+      <p class="footer__copy">© 2026 3DBusStop. Все права защищены.</p>
     </div>
   </footer>
 
 </body>
+
 </html>
